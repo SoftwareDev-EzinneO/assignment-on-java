@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGNMENT</title>
+</head>
+<body>
+
+      <div class="container">
+        <h1>10 Fun JavaScript Functions</h1>
+        
+        <!-- Function 1: Change Text -->
+        <div class="card">
+            <h2>1. Change Text</h2>
+            <p id="text1">Click the button to change me!</p>
+            <button onclick="changeText()">Change Text</button>
+        </div>
+
+        <!-- Function 2: Change Color -->
+        <div class="card">
+            <h2>2. Change Background Color</h2>
+            <button onclick="changeColor()">Change Color</button>
+        </div>
+
+        <!-- Function 3: Show/Hide -->
+        <div class="card">
+            <h2>3. Show/Hide Text</h2>
+            <p id="hiddenText">Now you see me!</p>
+            <button onclick="toggleText()">Toggle Text</button>
+        </div>
+
+        <!-- Function 4: Counter -->
+        <div class="card">
+            <h2>4. Counter</h2>
+            <p>Count: <span id="counter">0</span></p>
+            <button onclick="increaseCounter()">Add 1</button>
+        </div>
+
+        <!-- Function 5: Alert Message -->
+        <div class="card">
+            <h2>5. Show Alert</h2>
+            <button onclick="showAlert()">Click for Alert</button>
+        </div>
+
+        <!-- Function 6: Get Current Time -->
+        <div class="card">
+            <h2>6. Show Current Time</h2>
+            <p id="timeDisplay">Time will appear here</p>
+            <button onclick="showTime()">Show Time</button>
+        </div>
+
+        <!-- Function 7: Add Numbers -->
+        <div class="card">
+            <h2>7. Add Two Numbers</h2>
+            <input type="number" id="num1" placeholder="First number">
+            <input type="number" id="num2" placeholder="Second number">
+            <button onclick="addNumbers()">Add</button>
+            <p id="result">Result: </p>
+        </div>
+
+        <!-- Function 8: Change Image Size -->
+        <div class="card">
+            <h2>8. Make Image Bigger</h2>
+            <div id="box"></div>
+            <button onclick="makeBoxBigger()">Make Bigger</button>
+        </div>
+
+        <!-- Function 9: Random Number -->
+        <div class="card">
+            <h2>9. Random Number Generator</h2>
+            <p id="randomNum">Click to get a random number</p>
+            <button onclick="generateRandom()">Generate</button>
+        </div>
+
+        <!-- Function 10: Greeting -->
+        <div class="card">
+            <h2>10. Personal Greeting</h2>
+            <input type="text" id="nameInput" placeholder="Enter your name">
+            <button onclick="greetUser()">Greet Me</button>
+            <p id="greeting"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
